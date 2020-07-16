@@ -1,11 +1,15 @@
 .item
     &__icon
         &_procedure
-           margin-bottom: 5px
+            margin-bottom: 5px
             height: 50px
         &_slider
             height: 114px
             margin-bottom: 19px
+        &_adventages
+            display: block
+            width: 60px
+            height: 50px
             
     &__subheader
         &_procedure
@@ -16,6 +20,11 @@
         &_slider
             font-size: 18px
             font-weight: bold
+        &_adventages
+            font-size: 16px
+            font-weight: bold
+            color: #ec644b
+
             
 
 
@@ -29,9 +38,11 @@
             letter-spacing: normal
             text-align: center
             color: #3a3a3a
+            padding: 0 1em
 
         &_slider
             font-size: 14px
+            margin-top: 10px
             font-weight: 300
             font-stretch: normal
             font-style: normal
@@ -39,18 +50,38 @@
             letter-spacing: normal
             text-align: justify
             color: #3a3a3a
+        &_adventages
+            font-size: 14px
+            font-weight: 300
+            font-stretch: normal
+            font-style: normal
+            line-height: 1.57
+            letter-spacing: normal
+            text-align: left
+            color: #3a3a3a
 
+    &_adventages
+        margin-top: 35px
+        margin-right: 50px
+        width: 45%
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
 
     &_procedure
         text-align: center
-        width: 250px
+        width: 25%
     
     &_slider
         display: none
         margin: 0 auto
         margin-top: 30px
         text-align: center
-        width: 601px
+        width: 50%
         padding: 0 20px 0 20px
         &_active
             display: block
+            animation-name: fade
+            animation-duration: 1s
+            -webkit-animation-name: fade
+            -webkit-animation-duration: 1s
