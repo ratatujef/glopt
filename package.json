@@ -8,22 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ratatujef/uber.git"
+    "url": "git+https://github.com/ratatujef/glopt.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ratatujef/uber/issues"
+    "url": "https://github.com/ratatujef/glopt/issues"
   },
-  "homepage": "https://github.com/ratatujef/uber#readme",
+  "homepage": "https://github.com/ratatujef/glopt#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.9",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {}
 }
